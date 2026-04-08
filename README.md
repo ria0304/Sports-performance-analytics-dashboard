@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Multi-Sport Performance Analytics Dashboard
 
-# Run and deploy your AI Studio app
+An interactive data analytics dashboard that analyzes performance trends across Football, Formula 1, and MotoGP using real-world datasets. This project focuses on extracting actionable insights through advanced metrics and visualizations.
 
-This contains everything you need to run your app locally.
+📊 Overview
 
-View your app in AI Studio: https://ai.studio/apps/a823a6b6-f992-4136-aa07-54fa8764b2f1
+This platform enables users to explore historical sports data, evaluate team and player performance, and uncover trends using a unified analytics interface.
 
-## Run Locally
+Unlike prediction-based systems, this project emphasizes data analysis, visualization, and business-style insights.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🚀 Features
+📈 Performance Trends
+Win rates, goals scored, lap times, standings progression
+Season-wise and time-series analysis
+🧠 Advanced Analytics
+Consistency score (variance-based performance)
+Rolling averages (last N matches/races)
+Win rate & podium frequency
+⚔️ Comparative Analysis
+Head-to-head comparison of teams/drivers
+Cross-season performance evaluation
+🌍 Multi-Sport Support
+⚽ Football (club-level match data)
+🏎️ Formula 1 (driver & constructor stats)
+🏍️ MotoGP (rider performance trends)
+🎛️ Interactive Dashboard
+Dynamic filters (team, driver, season, sport)

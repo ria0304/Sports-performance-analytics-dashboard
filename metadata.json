@@ -1,0 +1,5 @@
+{
+  "name": "Sports Performance Analytics Dashboard",
+  "description": "An interactive analytics dashboard analyzing performance trends across Football, Formula 1, and MotoGP.",
+  "requestFramePermissions": []
+}

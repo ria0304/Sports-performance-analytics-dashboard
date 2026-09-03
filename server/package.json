@@ -1,0 +1,19 @@
+{
+  "name": "sports-dashboard-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Live-data backend for the Sports Analytics Dashboard. Proxies + caches public sports APIs so the frontend never hits rate limits or CORS walls directly.",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
